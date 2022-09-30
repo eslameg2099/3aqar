@@ -1,0 +1,13 @@
+{
+    "trashed_admin": "App\\Models\\Admin",
+    "trashed_supervisor": "App\\Models\\Supervisor",
+    "trashed_customer": "App\\Models\\Customer",
+    "trashed_office_owner": "App\\Models\\OfficeOwner",
+    "trashed_feedback": "App\\Models\\Feedback",
+    "trashed_city": "App\\Models\\City",
+    "trashed_type": "App\\Models\\Type",
+    "trashed_estate": "App\\Models\\Estate",
+    "trashed_contractor": "App\\Models\\Contractor",
+    "trashed_order": "App\\Models\\Order",
+    "trashed_engineering_office": "App\\Models\\EngineeringOffice"
+}

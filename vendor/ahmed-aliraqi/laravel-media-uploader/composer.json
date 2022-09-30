@@ -1,0 +1,40 @@
+{
+    "name": "ahmed-aliraqi/laravel-media-uploader",
+    "description": "This package used to upload files using laravel-media-library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed Fathy",
+            "email": "aliraqi.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "~5.7|~5.8|^6.0|^7.0|^8.0",
+        "spatie/laravel-medialibrary": "^9.0",
+        "php-ffmpeg/php-ffmpeg": "^0.17",
+        "laraeast/laravel-bootstrap-forms": "^5.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0|~5.3|~6.0",
+        "mockery/mockery": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "AhmedAliraqi\\LaravelMediaUploader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AhmedAliraqi\\LaravelMediaUploader\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AhmedAliraqi\\LaravelMediaUploader\\Providers\\UploaderServiceProvider"
+            ]
+        }
+    }
+}

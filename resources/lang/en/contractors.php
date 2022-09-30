@@ -1,0 +1,60 @@
+<?php
+
+return [
+    'singular' => 'Contractor',
+    'plural' => 'Contractors',
+    'empty' => 'There are no contractors yet.',
+    'count' => 'Contractors Count.',
+    'search' => 'Search',
+    'select' => 'Select Contractor',
+    'permission' => 'Manage contractors',
+    'trashed' => 'Trashed contractors',
+    'perPage' => 'Results Per Page',
+    'filter' => 'Search for contractor',
+    'actions' => [
+        'list' => 'List All',
+        'create' => 'Create a new contractor',
+        'show' => 'Show contractor',
+        'edit' => 'Edit contractor',
+        'delete' => 'Delete contractor',
+        'restore' => 'Restore',
+        'forceDelete' => 'Delete Forever',
+        'options' => 'Options',
+        'save' => 'Save',
+        'filter' => 'Filter',
+    ],
+    'messages' => [
+        'created' => 'The contractor has been created successfully.',
+        'updated' => 'The contractor has been updated successfully.',
+        'deleted' => 'The contractor has been deleted successfully.',
+        'restored' => 'The contractor has been restored successfully.',
+    ],
+    'attributes' => [
+        'name' => 'Contractor name',
+        'description' => 'Contractor description',
+        'city_id' => 'City',
+        'email' => 'Email',
+        'phone' => 'Phone',
+        'image' => 'Contractor image',
+    ],
+    'dialogs' => [
+        'delete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the contractor ?',
+            'confirm' => 'Delete',
+            'cancel' => 'Cancel',
+        ],
+        'restore' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to restore the contractor ?',
+            'confirm' => 'Restore',
+            'cancel' => 'Cancel',
+        ],
+        'forceDelete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the contractor forever ?',
+            'confirm' => 'Delete Forever',
+            'cancel' => 'Cancel',
+        ],
+    ],
+];

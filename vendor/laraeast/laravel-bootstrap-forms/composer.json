@@ -1,0 +1,45 @@
+{
+    "name": "laraeast/laravel-bootstrap-forms",
+    "description": "Provides an easy way to use bootstrap components within your Laravel projects.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed Al-Shahawi",
+            "email": "alshahawi@outlook.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Ahmed Fathy",
+            "email": "aliraqi.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "laravelcollective/html": "^5.6|^6.0|^7.0",
+        "laraeast/laravel-locales": "^3.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.3|^6.0",
+        "mockery/mockery": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laraeast\\LaravelBootstrapForms\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Laraeast\\LaravelBootstrapForms\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laraeast\\LaravelBootstrapForms\\Providers\\BootstrapFormsServiceProvider"
+            ],
+            "aliases": {
+                "BsForm": "Laraeast\\LaravelBootstrapForms\\Facades\\BsForm"
+            }
+        }
+    }
+}

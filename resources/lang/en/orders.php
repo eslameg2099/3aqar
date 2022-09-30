@@ -1,0 +1,62 @@
+<?php
+
+return [
+    'singular' => 'Order',
+    'plural' => 'Orders',
+    'empty' => 'There are no orders yet.',
+    'count' => 'Orders Count.',
+    'search' => 'Search',
+    'select' => 'Select Order',
+    'permission' => 'Manage orders',
+    'trashed' => 'Trashed orders',
+    'perPage' => 'Results Per Page',
+    'filter' => 'Search for order',
+    'actions' => [
+        'list' => 'List All',
+        'create' => 'Create a new order',
+        'show' => 'Show order',
+        'edit' => 'Edit order',
+        'delete' => 'Delete order',
+        'restore' => 'Restore',
+        'forceDelete' => 'Delete Forever',
+        'options' => 'Options',
+        'save' => 'Save',
+        'filter' => 'Filter',
+    ],
+    'messages' => [
+        'created' => 'The order has been created successfully.',
+        'updated' => 'The order has been updated successfully.',
+        'deleted' => 'The order has been deleted successfully.',
+        'restored' => 'The order has been restored successfully.',
+    ],
+    'attributes' => [
+        'name' => 'Order Title',
+        'description' => 'Order Description',
+        'user_id' => 'User',
+        'space_from' => 'Space (from)',
+        'space_to' => 'Space (to)',
+        'price_from' => 'Price (from)',
+        'price_to' => 'Price (to)',
+        'published_at' => 'Published At',
+    ],
+    'dialogs' => [
+        'delete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the order ?',
+            'confirm' => 'Delete',
+            'cancel' => 'Cancel',
+        ],
+        'restore' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to restore the order ?',
+            'confirm' => 'Restore',
+            'cancel' => 'Cancel',
+        ],
+        'forceDelete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the order forever ?',
+            'confirm' => 'Delete Forever',
+            'cancel' => 'Cancel',
+        ],
+    ],
+];

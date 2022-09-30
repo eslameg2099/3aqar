@@ -1,0 +1,20 @@
+{
+    "dashboard_template": null,
+    "frontend_template": null,
+    "mail_driver": null,
+    "mail_host": null,
+    "mail_port": null,
+    "mail_username": null,
+    "mail_password": null,
+    "mail_from_address": null,
+    "mail_from_name": null,
+    "mail_encryption": null,
+    "broadcast_driver": null,
+    "pusher_app_id": null,
+    "pusher_app_key": null,
+    "pusher_app_secret": null,
+    "pusher_app_encrypted": null,
+    "pusher_app_host": null,
+    "pusher_app_port": null,
+    "pusher_app_scheme": null
+}

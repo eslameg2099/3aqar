@@ -1,0 +1,42 @@
+{
+    "name": "laraeast/laravel-settings",
+    "description": "Persistent key-value storage for Laravel",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed Fathy",
+            "email": "aliraqi.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "~5.2|^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0|~4.0|~5.0|~6.0",
+        "mockery/mockery": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laraeast\\LaravelSettings\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Laraeast\\LaravelSettings\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Laraeast\\LaravelSettings\\Providers\\SettingsServiceProvider"
+            ],
+            "aliases": {
+                "Settings": "Laraeast\\LaravelSettings\\Facades\\Settings"
+            }
+        }
+    }
+}
